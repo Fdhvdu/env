@@ -1,0 +1,20 @@
+[alias]
+	amend = commit --amend
+	br = branch
+	co = checkout
+	cob = checkout -b
+	cp = cherry-pick
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+	di = diff
+	dib = diff -b
+	dibc = diff -b --cached
+	dic = diff --cached
+	fp = fetch -p
+	no-edit = commit --amend --no-edit
+	pushf = push --force-with-lease
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbi = rebase -i
+	sm = submodule
+	st = status
